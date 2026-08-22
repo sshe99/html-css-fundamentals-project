@@ -1,0 +1,206 @@
+/* =========== css reset =========== */
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color : white;
+}
+
+/* ============ body styles =================== */
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+   
+}
+
+/* ============ header styles ============== */
+
+header{
+    width: 100%;
+    color: white;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+}
+
+/* ---------- nav styles ------------- */
+
+.nav{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.nav img{
+    border-radius: 50%;
+}
+
+.nav ul{
+    display: flex;
+    gap : 20px;
+}
+
+
+/* ------ main text styles -------- */
+
+.main-text{
+    width: 75%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text div{
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+    margin: 0 20px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.main-text div button{
+    align-self: flex-start;
+    padding : 8px 30px;
+    background-color: #3882F6;
+    color : white;
+    font-size: 18px;
+    font-weight: bold;
+    border : 0;
+    border-radius: 10px;
+}
+
+.main-text div p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* =============== main styles ===============*/
+main{
+    width: 100%;
+}
+
+/* ------ random info Section -------*/
+.random-info{
+    width: 100%;
+    padding: 0 0 80px 0 ;
+    text-align: center;
+}
+
+.random-info h3{
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 50px 0;
+    font-weight: bold;
+    font-size : 2rem;
+}
+
+.stages {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.stage-one, .stage-two, .stage-three, .stage-four{
+   flex : 0 0 200px;
+}
+
+.stages-para{
+    margin-top: 10px;
+}
+
+.stages-img{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* --------Quote section styles ---------- */
+.quote-section {
+    width: 100%;
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote-section div{
+    width: 70%;
+    padding: 5rem;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author{
+    text-align: end;
+    font-weight: bold;
+}
+
+/* ---------- sign up section styles ------------- */
+.signup-section{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 100px;
+}
+
+.signup{
+    width: 80%;
+    background-color: #3882F6;
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.signup .call-to-action{
+    font-size : 20px;
+    color : #FFFFFF;
+    font-weight: bold;
+}
+.signup .call-to-action-description{
+    color: white;
+}
+
+.signup button{
+    flex: none;
+    align-self: flex-start;
+    color: #FFFFFF;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    border : 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+/* ================= footer ==================== */
+footer{
+    width: 100%;
+    padding: 2rem;
+    background-color: #1F2937;
+}
+
+footer p {
+    color:  #FFF;
+    text-align: center;
+}
